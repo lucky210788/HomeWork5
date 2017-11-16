@@ -50,7 +50,7 @@ function motionAnimal(y) {
         y = -y;
         return y;
     }
-    if (y > 14) {
+    else if (y > 14) {
         y--;
         return y;
     }
